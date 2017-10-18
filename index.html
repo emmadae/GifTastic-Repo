@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<!-- Head of Website -->
+	<head>
+	<!-- My CSS Stylesheet Links -->
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+		<title> GifTastic </title>
+
+	<!-- Google Font Links -->
+		<link href="https://fonts.googleapis.com/css?family=Patua+One|Raleway" rel="stylesheet">
+
+	<!-- JavaScript & jQuery links -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/javascript/script.js"></script> 
+	</head>
+
+<!-- Body of Website -->
+	<body>
+		<h1 id="title"> SPORTS GIPHY. </h1>
+		<p id="click-me"> 1) See a sport your interested in? Click one of the buttons below to see the best gifs from that given sport. <br> 2) Don't see your sport? No problem! Simply create your own sports giphy button below.   <br> 3) Lastly...click the still image &amp; and watch it animate. </p>
+
+		<section class="btns">
+			<button class="sports-btn" data-state="still" data-sports="football">FOOTBALL</button>
+			<button class="sports-btn" data-state="still" data-sports="soccer">SOCCER</button>
+			<button class="sports-btn" data-state="still" data-sports="tennis">TENNIS</button>
+			<button class="sports-btn" data-state="still" data-sports="swimming">SWIMMING</button>
+			<button class="sports-btn" data-state="still" data-sports="crossfit">CROSSFIT</button>
+			<button class="sports-btn" data-state="still" data-sports="racing">RACING</button>
+			<button class="sports-btn" data-state="still" data-sports="snowboarding">SNOWBOARDING</button>
+			<button class="sports-btn" data-state="still" data-sports="yoga">YOGA</button>
+		</section> 
+		
+		<br>
+		<section class="new-sports">
+			<form id="sports-form">
+      			<label id="lable" for="sports-input"> WHAT SPORTS DO YOU ENJOY? </label> <br> <br>
+      			<input type="text" id="sports-input"> <br> <br>
+      			<!-- Button triggers new movie to be added -->
+      			<button id="add-sports" type="button"> ADD YOUR OWN SPORT </button>
+    		</form>
+		</section>
+		
+		<br>
+		<section class="gifs-here">
+			<div id="gifs-appear-here"> </div>
+		</section>
+
+
+	</body>
+
+</html>
+

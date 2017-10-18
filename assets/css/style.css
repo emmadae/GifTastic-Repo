@@ -1,0 +1,87 @@
+/* Main Body Background Gradient */
+body{
+	background-image: linear-gradient(to top, #f5f7fa 0%, #c3cfe2 100%);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Title H1 For Page */
+#title {
+	font-family: "Patua One", serif;
+	color:white;
+	margin:3% 0 1% 3%; 
+	font-size:48px;
+}
+
+/* Styling For "Click The Gif..." */
+#click-me{
+	font-family:"Raleway", sans-serif;
+	padding:10px;
+	font-size:20px;
+	color:white;
+	margin:0 4% 2% 4%; 
+}
+
+/* Buttons Styling and Setting */
+.btns{
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.btns button, #add-sports{
+	font-family:"Raleway", sans-serif;
+	font-size:16px;
+	border:1px solid white;
+	color: white;
+	background:none;
+	padding: 10px 15px;
+	border-radius:5px;
+	margin-right:1%;
+	margin-bottom:1%;
+
+}
+
+.btns button:hover, #add-sports:hover{
+	box-shadow: white 0 0 20px;
+
+}
+
+/* Input Your Sport Form */
+#sports-form{
+	text-align:center;
+}
+
+#sports-form #lable{
+	font-family:"Patua One", serif;
+	color:white;
+	margin-bottom:1%;
+	font-size:28px;	
+}
+
+#sports-input{
+	border:1px solid white;
+	font-family:"Raleway", sans-serif;
+	padding:10px;
+	font-size:16px;
+	width:23.5%;
+}
+
+/* GIPHY Results Styling */
+#gifs-appear-here{
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.results{
+	float:left;
+	margin-right:2%;
+	margin-bottom:3%;
+}
+
+.results p{
+	font-family:"Raleway", sans-serif;
+	margin-top:5px;
+}
+
